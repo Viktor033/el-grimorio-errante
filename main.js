@@ -75,7 +75,7 @@ function initMysteryBagAction() {
 
   mysteryBtn.addEventListener("click", (e) => {
     e.preventDefault();
-    const text = `¡Saludos, forjadores de El Grimorio Errante! 🎲✨\n\n¡Quiero desafiar al destino y pedir mi *Sobre Sorpresa de Dados (Edición Limitada)*!\n\n¿Podrían indicarme los métodos de pago y costo de envío?`;
+    const text = `¡Saludos, forjadores de El Grimorio Errante! 🎲✨\n\n¡Quiero desafiar al destino y pedir mi *Sobre Sorpresa de Dados ($20.000 - Edición Limitada)*!\n\n¿Podrían indicarme los métodos de pago y costo de envío?`;
 
     const encoded = encodeURIComponent(text);
     const url = `${BRAND_CONFIG.whatsappBaseUrl}?text=${encoded}`;

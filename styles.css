@@ -329,7 +329,7 @@ h1, h2, h3, h4, .brand-font {
 }
 
 .hero-frame-container {
-  max-width: 960px;
+  max-width: 1040px;
   margin: 0 auto;
   position: relative;
   padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.5rem, 4vw, 3rem);
@@ -376,9 +376,9 @@ h1, h2, h3, h4, .brand-font {
 }
 
 .hero-logo-wrapper {
-  margin: 0 auto 1.8rem;
-  width: 175px;
-  height: 175px;
+  margin: 0 auto 2.5rem;
+  width: clamp(280px, 46vw, 460px);
+  height: clamp(280px, 46vw, 460px);
   position: relative;
   display: flex;
   align-items: center;
@@ -390,26 +390,26 @@ h1, h2, h3, h4, .brand-font {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  border: 2.5px solid var(--gold-400);
-  box-shadow: 0 0 35px var(--gold-glow), 0 0 70px rgba(13, 67, 70, 0.7);
+  border: 4.5px solid var(--gold-400);
+  box-shadow: 0 0 55px var(--gold-glow), 0 0 110px rgba(13, 67, 70, 0.85), 0 25px 50px rgba(0, 0, 0, 0.9);
   transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.4s ease;
   animation: logoPulse 4s ease-in-out infinite alternate;
 }
 
 @keyframes logoPulse {
   0% {
-    box-shadow: 0 0 25px var(--gold-glow), 0 0 50px rgba(13, 67, 70, 0.5);
+    box-shadow: 0 0 45px var(--gold-glow), 0 0 85px rgba(13, 67, 70, 0.6), 0 20px 40px rgba(0, 0, 0, 0.8);
     transform: scale(1);
   }
   100% {
-    box-shadow: 0 0 42px rgba(212, 175, 55, 0.6), 0 0 80px rgba(13, 67, 70, 0.85);
-    transform: scale(1.03);
+    box-shadow: 0 0 70px rgba(212, 175, 55, 0.75), 0 0 130px rgba(13, 67, 70, 0.95), 0 30px 60px rgba(0, 0, 0, 0.95);
+    transform: scale(1.025);
   }
 }
 
 .hero-logo-wrapper:hover .hero-logo-img {
-  transform: scale(1.08) rotate(5deg);
-  box-shadow: 0 0 45px rgba(212, 175, 55, 0.85), 0 0 95px rgba(13, 67, 70, 0.95);
+  transform: scale(1.05) rotate(3deg);
+  box-shadow: 0 0 80px rgba(212, 175, 55, 0.95), 0 0 150px rgba(13, 67, 70, 1), 0 35px 70px rgba(0, 0, 0, 1);
 }
 
 .hero-title {
@@ -768,9 +768,10 @@ h1, h2, h3, h4, .brand-font {
   aspect-ratio: 1 / 1;
   max-width: 380px;
   margin: 0 auto;
-  border-radius: 50%;
-  padding: 4px;
-  background: var(--gold-gradient);
+  border-radius: 18px;
+  padding: 8px;
+  background: radial-gradient(circle at 50% 50%, rgba(13, 67, 70, 0.7) 0%, #050b0c 100%);
+  border: 1.5px solid var(--gold-400);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.9), 0 0 35px var(--gold-glow), 0 0 70px rgba(13, 67, 70, 0.8);
   display: flex;
   align-items: center;
@@ -779,16 +780,17 @@ h1, h2, h3, h4, .brand-font {
 }
 
 .mystery-card-wrap:hover .mystery-visual-container {
-  transform: scale(1.05) rotate(3deg);
+  transform: scale(1.05) rotate(2deg);
   box-shadow: 0 16px 50px rgba(0, 0, 0, 0.95), 0 0 45px rgba(212, 175, 55, 0.8), 0 0 90px rgba(13, 67, 70, 0.95);
 }
 
 .mystery-highlight-img {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
+  border-radius: 12px;
+  object-fit: contain;
   display: block;
+  filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.3));
 }
 
 .mystery-badge-row {

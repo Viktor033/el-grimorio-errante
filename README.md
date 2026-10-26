@@ -22,7 +22,7 @@ c:/PROYECTOS/El-Grimorio-Errante/
 ├── main.js          # Enlaces directos pre-llenados para WhatsApp, Sobre Sorpresa y menú
 ├── IMG/
 │   ├── LOGO-OFICIAL.jpeg         # Medallón oficial de la marca (D20 oro y verde esmeralda)
-│   └── LOGO-SOBRE-SORPRESA.jpg   # Medallón oficial del Sobre Sorpresa de Dados
+│   └── sobre sorpresa.jpeg       # Ilustración oficial del Sobre Sorpresa de Dados
 └── README.md        # Documentación y configuración rápida
 ```
 
@@ -43,8 +43,8 @@ c:/PROYECTOS/El-Grimorio-Errante/
    - *Diseños Únicos y Exclusivos*
    - *Lanzamientos de Alta Precisión (D20 Balanceado)*
    - *Envíos Locales y Regionales*
-4. **Catálogo Principal:** Tarjetas para *Set de Dados (Resina y Filos Afilados)* y *Bandejas de Tiro Plegables (Madera y Cuero con Bordes Dorados)* con especificaciones, distintivos y botón de encargo directo por WhatsApp.
-5. **Spotlight Exclusivo "Sobre Sorpresa de Dados":** Tarjeta destacada con distintivos *"Edición Limitada"* y *"¡Descubre tu suerte!"*, lista de beneficios y botón que pre-llena el pedido específico en WhatsApp.
+4. **Catálogo Principal:** Tarjetas para *Kit de Dados ($10.000)* y *Bandejas de Tiro Plegables ($15.000)* con especificaciones, distintivos y botón de encargo directo por WhatsApp.
+5. **Spotlight Exclusivo "Sobre Sorpresa de Dados" ($20.000):** Tarjeta destacada con distintivos *"Edición Limitada"* y *"¡Descubre tu suerte!"*, lista de beneficios y botón que pre-llena el pedido específico en WhatsApp.
 6. **Pie de Página:** Enlaces directos y texto de cierre místico.
 
 ---
